@@ -1,0 +1,6 @@
+-> npm run dev
+
+-> npx untun@latest tunnel http://localhost:3000/
+
+Webhooks from external services (e.g., Clerk, Stripe, GitHub, or Slack) require a public URL to deliver data to your application. By default, your local development environment (localhost) isn't accessible from the internet.
+This command creates a public URL that tunnels traffic to your local server running on localhost:3000. By doing this, your local server is accessible over the internet, which is useful for testing webhooks or sharing your development server with others temporarily
